@@ -12,4 +12,26 @@ Penjelasan Kode
 2. Fungsi main
 - menggunakan pengulangan while true
 - menjalankan fungsi sesuai dengan pilihan user
-3. 
+3. fungsi append
+- untuk menginput nilai yang di berikan kedalam list
+4. fungsi enumerate
+- untuk mengulang melalui sebuah iterable—seperti list, tuple, atau string—dan memiliki akses ke indeks dan elemen itu sendiri
+- untuk memudahkan menampilkan isi list
+5. fungsi pop
+- untuk mengeluarkan data yang ada didalam list tersebut
+
+## d. Output program
+<img width="351" height="361" alt="image" src="https://github.com/user-attachments/assets/8035e859-349c-43c8-9891-540177440f79" />
+<img width="415" height="374" alt="image" src="https://github.com/user-attachments/assets/b31dba6a-a8c3-423a-af27-5a48fb2bc057" />
+<img width="438" height="351" alt="image" src="https://github.com/user-attachments/assets/fa98bb5f-8369-4649-a7a4-cde5cedb91e0" />
+<img width="235" height="197" alt="image" src="https://github.com/user-attachments/assets/87283224-5fcb-400d-9cf8-3f2fd243e4ca" />
+
+Penjelasan Output
+- saat user menginput nilai yang tidak tersedia maka akan menampilkan "Pilihan tidak ada"
+- saat user menambahkan to-do list maka data akan tersimpan dalam list tersebut
+- saat user memilih pilihan menampilkan maka akan menampilkan semua data yang ada di dalam list
+- saat user ingin menghapus data maka akan mengpop data yang ada di list
+
+
+## e. Link Youtube
+https://youtu.be/g4rxv55nYfs
