@@ -49,3 +49,5 @@ Penjelasan
 - Saat hasil ditampilkan, program menampilkan seluruh data yang sudah terurut dari A–Z dengan perbandingan yang tidak membedakan huruf besar dan kecil
 
 ## E. Link YouTube
+
+https://youtu.be/7G_zm_AnZ1M
