@@ -40,7 +40,7 @@ if __name__ == "__main__":
 - Mencegah kode otomatis berjalan saat diimpor sebagai modul
 
 ## D. Output Program
-<img width="444" height="316" alt="image" src="https://github.com/user-attachments/assets/988c392f-3971-4c7c-9b7c-25ea254c329c" />
+<img width="670" height="379" alt="image" src="https://github.com/user-attachments/assets/d542582e-90bd-44be-8e49-1c52de5824fa" />
 
 Penjelasan
 - Saat user menginput jumlah data, program menentukan berapa banyak nama mahasiswa yang akan dimasukkan ke dalam list
