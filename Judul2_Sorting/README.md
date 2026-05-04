@@ -72,3 +72,14 @@ Menggabungkan semua fungsi menjadi satu alur eksekusi yang jelas.
 Digunakan untuk memastikan:
 main() hanya dijalankan saat file dieksekusi langsung
 Tidak dijalankan jika file di-import ke program lain
+
+## D. Output Program
+<img width="444" height="316" alt="image" src="https://github.com/user-attachments/assets/988c392f-3971-4c7c-9b7c-25ea254c329c" />
+
+Penjelasan
+- saat user menginput jumlah data, program akan menentukan berapa banyak nama yang akan dimasukkan ke dalam list
+- saat user memasukkan nama mahasiswa, data akan disimpan ke dalam list secara berurutan sesuai input
+- saat proses sorting dijalankan, program akan membandingkan setiap elemen dan menukarnya hingga urut secara alfabet
+- saat hasil ditampilkan, program akan menampilkan semua data yang sudah terurut dari A–Z tanpa membedakan huruf besar dan kecil
+
+## E. Link YouTube
