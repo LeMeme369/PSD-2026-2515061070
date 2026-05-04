@@ -6,80 +6,46 @@ Program ini berfungsi untuk mengurutkan nama mahasiswa berdasarkan urutan alfabe
 ## C. Source code
 Screenshot Source code
 
-<img width="815" height="349" alt="image" src="https://github.com/user-attachments/assets/19bfb9a3-654d-4d9e-9aee-2bc5f565e4ba" />
-<img width="818" height="733" alt="image" src="https://github.com/user-attachments/assets/3c66d857-5d55-4408-bcc5-3dc8ce389377" />
+<img width="818" height="338" alt="image" src="https://github.com/user-attachments/assets/bef70200-88a9-4de5-939f-8e634e6d27f4" />
+<img width="966" height="777" alt="image" src="https://github.com/user-attachments/assets/6e32be18-8036-4a10-8627-885266e6d222" />
 
 Penjelasan kode
-1. tukar(arr, i, j)
-Fungsi ini bertugas menukar posisi dua elemen dalam list berdasarkan indeks.
-Menggunakan teknik Pythonic:
-- arr[i], arr[j] = arr[j], arr[i]
-- Artinya nilai di indeks i dan j langsung ditukar tanpa variabel sementara.
-Makna:
-Operasi dasar yang dipakai oleh algoritma sorting untuk memperbaiki urutan data.
-
-2. bubble_sort(arr)
-inti algoritma : 
-- n = len(arr) → menentukan jumlah data
-- Loop luar (for i in range(n - 1)) → jumlah iterasi maksimal
-- Loop dalam (for j in range(n - i - 1)) → membandingkan elemen bersebelahan
-
-Bagian penting:
-
-- arr[j].lower() > arr[j + 1].lower()
-- Membandingkan dua string secara alfabet tanpa memperhatikan huruf besar/kecil
-- Jika kondisi benar → dipanggil tukar()
-- Variabel swapped:
-    - Jika tidak ada pertukaran dalam satu iterasi → berarti data sudah terurut
-    - Loop langsung berhenti (break)
-
-Makna:
-Setiap iterasi akan “mendorong” elemen terbesar ke posisi paling kanan.
-Optimasi swapped menghindari iterasi yang tidak perlu.
-
-3. input_data()
-Fungsi untuk mengambil input dari pengguna.
-Validasi jumlah data menggunakan try-except
-Jika input bukan angka → program dihentikan
-
-Loop input:
-- User memasukkan data satu per satu
-- Dicek apakah kosong (nilai.strip() == "")
-- Jika valid → disimpan ke list
-Makna:
-Menjamin data yang diproses tidak kosong dan sesuai jumlah yang diminta.
-
-4. tampilkan(arr)
-Fungsi sederhana untuk menampilkan isi list:
-- Menggunakan loop for
-- Dicetak dalam satu baris
-Makna:
-Memisahkan logika output dari proses utama → membuat kode lebih modular.
-
-5. main()
-Pengatur alur utama program:
-- Ambil data dari input_data()
-- Jika kosong → hentikan program
-- Tampilkan data sebelum sorting
-- Jalankan bubble_sort()
-- Tampilkan hasil setelah sorting
-
-Makna:
-Menggabungkan semua fungsi menjadi satu alur eksekusi yang jelas.
-
-6.if __name__ == "__main__":
-    main()
-Digunakan untuk memastikan:
-main() hanya dijalankan saat file dieksekusi langsung
-Tidak dijalankan jika file di-import ke program lain
+1. Fungsi tukar(arr, i, j)
+- Digunakan untuk menukar dua elemen dalam list
+- Menyimpan sementara nilai arr[i] ke variabel temp
+- Mengganti arr[i] dengan arr[j]
+- Mengisi arr[j] dengan nilai dari temp
+2. Fungsi bubble_sort(arr, n)
+- Berfungsi untuk mengurutkan data menggunakan algoritma Bubble Sort
+- Menggunakan dua perulangan (nested loop)
+- Loop luar (i) untuk mengontrol jumlah iterasi
+- Loop dalam (j) untuk membandingkan elemen yang bersebelahan
+- Membandingkan arr[j] dan arr[j+1] secara alfabet
+- Menggunakan .lower() agar tidak sensitif huruf besar/kecil
+- Jika urutan salah, maka elemen ditukar menggunakan fungsi tukar
+- Setiap iterasi akan menempatkan elemen terbesar ke posisi akhir
+3. Fungsi main()
+- Mengatur jalannya program
+- Meminta input jumlah data dari pengguna
+- Menggunakan try-except untuk menangani input yang tidak valid
+- Membuat list kosong untuk menyimpan data
+- Melakukan input nama mahasiswa sebanyak n kali
+- Menggunakan validasi agar input tidak kosong
+- Menampilkan data sebelum diurutkan
+- Memanggil fungsi bubble_sort untuk mengurutkan data
+- Menampilkan hasil data setelah diurutkan
+4. Bagian eksekusi program
+if __name__ == "__main__":
+- Memastikan fungsi main() dijalankan hanya saat file dieksekusi langsung
+- Mencegah kode otomatis berjalan saat diimpor sebagai modul
 
 ## D. Output Program
 <img width="444" height="316" alt="image" src="https://github.com/user-attachments/assets/988c392f-3971-4c7c-9b7c-25ea254c329c" />
 
 Penjelasan
-- saat user menginput jumlah data, program akan menentukan berapa banyak nama yang akan dimasukkan ke dalam list
-- saat user memasukkan nama mahasiswa, data akan disimpan ke dalam list secara berurutan sesuai input
-- saat proses sorting dijalankan, program akan membandingkan setiap elemen dan menukarnya hingga urut secara alfabet
-- saat hasil ditampilkan, program akan menampilkan semua data yang sudah terurut dari A–Z tanpa membedakan huruf besar dan kecil
+- Saat user menginput jumlah data, program menentukan berapa banyak nama mahasiswa yang akan dimasukkan ke dalam list
+- Saat user memasukkan nama mahasiswa, setiap nama disimpan ke dalam list sesuai urutan input
+- Saat proses sorting dijalankan, program membandingkan elemen yang bersebelahan dan menukarnya jika urutannya salah hingga tersusun alfabetis
+- Saat hasil ditampilkan, program menampilkan seluruh data yang sudah terurut dari A–Z dengan perbandingan yang tidak membedakan huruf besar dan kecil
 
 ## E. Link YouTube
