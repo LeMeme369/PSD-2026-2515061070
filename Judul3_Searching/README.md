@@ -36,3 +36,15 @@ Penjelasan code
 3. Bagian if __name__ == "__main__":
 - Digunakan agar fungsi main() dijalankan saat program dieksekusi langsung
 - Mencegah kode otomatis berjalan jika file diimport sebagai modul
+
+## D. Output code
+<img width="599" height="645" alt="image" src="https://github.com/user-attachments/assets/b3a6cea8-0228-42aa-abee-569d6d6937a4" />
+
+Penjelasan
+- Saat user menginput jumlah mahasiswa, program menentukan berapa banyak data mahasiswa yang akan dimasukkan ke dalam list
+- Saat user memasukkan nama dan nilai mahasiswa, setiap data disimpan ke dalam list dalam bentuk dictionary sesuai urutan input
+- Saat proses pencarian dijalankan, program memeriksa data mahasiswa satu per satu dari index awal hingga akhir menggunakan algoritma Sequential Search
+- Program membandingkan nama mahasiswa pada data dengan nama yang dicari tanpa membedakan huruf besar dan kecil menggunakan .lower()
+- Jika nama mahasiswa ditemukan, program menampilkan nama dan nilai mahasiswa tersebut
+- Jika nama mahasiswa tidak ditemukan, program menampilkan pesan bahwa data mahasiswa tidak ada dalam list
+## E. Link YouTube
