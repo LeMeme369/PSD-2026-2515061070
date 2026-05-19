@@ -61,8 +61,9 @@ Jika queue tidak kosong:
 - Variabel pilih digunakan untuk menyimpan pilihan menu user
 - Perulangan while digunakan agar program terus berjalan sampai user memilih keluar
 ## D. Output code
+<img width="552" height="875" alt="image" src="https://github.com/user-attachments/assets/037158a6-74b8-460d-b5b9-c1fc2aa432db" />
+<img width="561" height="940" alt="image" src="https://github.com/user-attachments/assets/6a634745-704b-4751-9c24-4a78d96b4eb7" />
 
-
-
+Penjelasan Output
 
 ## E. Link YouTube
