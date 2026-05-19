@@ -43,7 +43,7 @@ Jika queue tidak kosong:
 - temp = self.front_ptr menyimpan data paling depan sementara
 - self.front_ptr = self.front_ptr.next memindahkan antrean depan ke node berikutnya
 - Jika semua data habis:
--- rear_ptr diubah menjadi None
+  - rear_ptr diubah menjadi None
 - Proses ini mengikuti konsep FIFO
 7. Fungsi peek()
 - Digunakan untuk melihat pesanan paling depan
