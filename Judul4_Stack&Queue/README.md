@@ -73,3 +73,4 @@ Penjelasan Output
 - Program menggunakan struktur data Queue dengan metode FIFO (First In First Out), sehingga pesanan yang pertama masuk akan diproses pertama
 - Linked List digunakan agar proses penambahan dan peng
 ## E. Link YouTube
+https://youtu.be/wDWcxsZUzaM
