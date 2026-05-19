@@ -43,7 +43,7 @@ Jika queue tidak kosong:
 - temp = self.front_ptr menyimpan data paling depan sementara
 - self.front_ptr = self.front_ptr.next memindahkan antrean depan ke node berikutnya
 - Jika semua data habis:
-- rear_ptr diubah menjadi None
+-- rear_ptr diubah menjadi None
 - Proses ini mengikuti konsep FIFO
 7. Fungsi peek()
 - Digunakan untuk melihat pesanan paling depan
@@ -65,5 +65,11 @@ Jika queue tidak kosong:
 <img width="561" height="940" alt="image" src="https://github.com/user-attachments/assets/6a634745-704b-4751-9c24-4a78d96b4eb7" />
 
 Penjelasan Output
-
+- Saat user memilih menu tambah pesanan, program memasukkan data pesanan ke dalam antrean menggunakan fungsi enqueue()
+- Setiap pesanan baru disimpan pada bagian belakang queue sesuai urutan input pelanggan
+- Saat user memilih lihat pesanan berikutnya, program menampilkan pesanan paling depan menggunakan fungsi peek()
+- Saat user memilih tampilkan antrean, program menampilkan seluruh daftar pesanan dari depan hingga belakang menggunakan traversal linked list
+- Saat proses pesanan dijalankan, program mengambil dan menghapus pesanan paling depan menggunakan fungsi dequeue()
+- Program menggunakan struktur data Queue dengan metode FIFO (First In First Out), sehingga pesanan yang pertama masuk akan diproses pertama
+- Linked List digunakan agar proses penambahan dan peng
 ## E. Link YouTube
