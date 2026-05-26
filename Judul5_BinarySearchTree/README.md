@@ -75,5 +75,20 @@ Penjelasan code
 ```text
 right → root → left
 ```
+- Traversal tersebut membuat skor terbesar tampil lebih dulu sehingga sesuai untuk sistem ranking game
+- Saat user memilih cari skor, program mencari data mulai dari root BST menggunakan fungsi search()
+- Jika skor ditemukan, program menampilkan nama pemain yang memiliki skor tersebut
+- Pada output:
+`wildan : 100`
+menunjukkan bahwa data pemain berhasil disimpan pada BST dan tampil pada leaderboard
+
+Saat pencarian skor:
+`Masukkan skor yang dicari: 100
+Pemain ditemukan: wildan
+`
+program berhasil menemukan node dengan skor `100` pada BST
+
+- Program menggunakan struktur data Binary Search Tree (BST) sehingga proses insert dan search dapat dilakukan lebih cepat dibandingkan list biasa
+- BST digunakan agar data ranking tersusun otomatis tanpa perlu melakukan sorting ulang setiap kali data baru ditambahkan
 ## E. Link YouTube
 
