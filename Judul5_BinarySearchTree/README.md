@@ -1,4 +1,4 @@
-# SYSTEM STACK & QUEUE
+# Binary Search Tree
 ## A. Judul Program
 Sistem Ranking Game
 ## B. Deskripsi singkat
