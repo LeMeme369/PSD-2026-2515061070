@@ -36,6 +36,29 @@ Penjelasan code
 - Jika skor lebih kecil maka masuk ke kiri
 - Jika skor lebih besar maka masuk ke kanan
 - Menggunakan konsep rekursif
+
+---
+
+4. Fungsi search()
+- Digunakan untuk mencari skor pemain
+- Pencarian dimulai dari root
+- Bergerak ke kiri atau kanan sesuai nilai skor
+
+---
+
+5. Fungsi leaderboard()
+- Digunakan untuk menampilkan ranking pemain
+- Menggunakan traversal:
+    right → root → left
+- Traversal tersebut menghasilkan urutan skor terbesar ke terkecil
+
+---
+
+6. Fungsi main()
+- Digunakan sebagai program utama
+- Berisi menu interaktif pengguna
+- Mengatur seluruh proses input dan output
+
 ## D. Output code
 
 
