@@ -6,6 +6,9 @@ Program ini berfungsi untuk mengelola data skor pemain dalam sebuah permainan se
 ## C. Source Code
 Screenshot code
 
+<img width="822" height="842" alt="image" src="https://github.com/user-attachments/assets/41ad5f80-09e5-4953-9f17-33b30c6960d8" />
+<img width="787" height="765" alt="image" src="https://github.com/user-attachments/assets/377d2d38-898a-4693-afe6-82c73a7eb20b" />
+
 
 Penjelasan code
 
