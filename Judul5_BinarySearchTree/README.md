@@ -74,6 +74,6 @@ Penjelasan code
 
 ```text
 right → root → left
-
+```
 ## E. Link YouTube
 
