@@ -92,3 +92,4 @@ program berhasil menemukan node dengan skor `100` pada BST
 
 ## E. Link YouTube
 
+https://youtu.be/m3l9LbpNALo
