@@ -61,6 +61,19 @@ Penjelasan code
 
 ## D. Output code
 
+<img width="644" height="648" alt="image" src="https://github.com/user-attachments/assets/fa4e36fa-6aa0-4e71-ab2b-2d34d4f32a7b" />
+
+Penjelasan code
+- Saat user memilih menu tambah pemain, program memasukkan data pemain dan skor ke dalam Binary Search Tree menggunakan fungsi `insert()`
+
+- Data skor disimpan sesuai aturan BST:
+  - skor lebih kecil masuk ke subtree kiri
+  - skor lebih besar masuk ke subtree kanan
+
+- Saat user memilih tampilkan leaderboard, program menampilkan seluruh ranking pemain menggunakan traversal:
+
+```text
+right → root → left
 
 ## E. Link YouTube
 
