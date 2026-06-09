@@ -103,7 +103,22 @@ Penjelasan code
 
 ## D. Output code
 
+<img width="483" height="892" alt="image" src="https://github.com/user-attachments/assets/dabf9a87-ae9e-4bd0-bf3a-5fbe89e33562" />
+<img width="359" height="409" alt="image" src="https://github.com/user-attachments/assets/da5e2331-1bcc-40d5-9620-c59b0136153a" />
 
-Penjelasan code
+
+Penjelasan output
+
+## Penjelasan Output Program
+
+Saat user memilih menu `Insert Data`, program akan memasukkan data ke dalam HashMap menggunakan fungsi `insert()`. Data yang dimasukkan terdiri dari `key` sebagai angka unik penanda data dan `value` sebagai isi data yang disimpan. Pada output, user memasukkan `key = 41` dan `value = josh`, lalu program menampilkan pesan `Data berhasil ditambahkan.`, yang berarti data tersebut berhasil masuk ke dalam HashMap.
+
+Setelah itu, user memilih menu `Display Data` untuk menampilkan isi Hash Table dari `Index 0` sampai `Index 9`. Pada tampilan tersebut, data dengan `key = 41` dan `value = josh` berada di `Index 1` karena hasil perhitungan hash adalah `41 % 10 = 1`. Selain itu, data dengan `key = 14` dan `value = wildan` berada di `Index 4` karena hasil perhitungan hash adalah `14 % 10 = 4`. Index lain yang bernilai `NULL` menunjukkan bahwa belum ada data yang tersimpan pada posisi tersebut.
+
+Kemudian user memilih menu `Hapus Data` dan memasukkan `key = 41`. Program mencari data tersebut menggunakan key, lalu menghapusnya dari HashMap. Pesan `Data berhasil dihapus.` menunjukkan bahwa data dengan key tersebut berhasil ditemukan dan dihapus. Setelah proses hapus, data `josh` tidak lagi tersimpan di dalam HashMap.
+
+Selanjutnya user memilih menu `Cari Data` dan memasukkan `key = 14`. Program mencari data berdasarkan key tersebut menggunakan fungsi `search()`. Output `Data ditemukan: Key = 14, Value = wildan` menunjukkan bahwa data dengan key `14` masih tersimpan di dalam HashMap dan berhasil ditemukan oleh program.
+
+Terakhir, user memilih menu `Keluar`, lalu program menampilkan pesan `Program selesai.`. Hal ini menunjukkan bahwa program berhenti berjalan. Berdasarkan output tersebut, dapat disimpulkan bahwa fitur `insert`, `display`, `hapus`, `cari`, dan `keluar` sudah berjalan dengan baik. Program menggunakan struktur data HashMap dengan metode Separate Chaining agar proses penyimpanan, pencarian, dan penghapusan data dapat dilakukan lebih cepat berdasarkan key. Konsep ini sesuai dengan kode yang menggunakan fungsi `insert()`, `search()`, `remove_key()`, dan `display()`. :contentReference[oaicite:0]{index=0}
 
 ## E. Link YouTube
